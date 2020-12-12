@@ -42,7 +42,7 @@ $green:   #56CC9D !default;
 $teal:    #20c997 !default;
 $cyan:    #6CC3D5 !default;
 
-$primary:       #78C2AD !default;
+$primary:       $black !default;
 $secondary:     #F3969A !default;
 $success:       $green !default;
 $info:          $cyan !default;
@@ -101,7 +101,7 @@ $pagination-active-bg:              $secondary !default;
 $pagination-active-border-color:    $pagination-active-bg !default;
 
 $pagination-disabled-color:         $white !default;
-$pagination-disabled-bg:            #CCE8E0 !default;
+$pagination-disabled-bg:            $black !default;
 $pagination-disabled-border-color:  $pagination-disabled-bg !default;
 
 // Breadcrumbs
