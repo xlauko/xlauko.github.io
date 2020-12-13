@@ -1,3 +1,19 @@
 ---
 ---
 {{reference}}
+
+<div id="{{key}}-materials">
+  {% if entry.abstract %}
+  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#abstract-{{key}}" aria-expanded="false" aria-controls="abstract-{{key}}">
+  Abstract
+  </button>
+  {% endif %}
+
+  {% if entry.abstract %}
+  <div class="collapse" id="abstract-{{key}}">
+    <hr>
+    {{entry.abstract}}
+    <hr>
+  </div>
+  {% endif %}
+</div>
