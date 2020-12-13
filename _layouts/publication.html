@@ -9,6 +9,12 @@
   </button>
   {% endif %}
 
+  {% if entry.web %}
+  <button class="btn btn-link" type="button">
+  <a href="{{entry.web}}">Web</a>
+  </button>
+  {% endif %}
+
   {% if entry.abstract %}
   <div class="collapse" id="abstract-{{key}}">
     <hr>

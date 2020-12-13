@@ -9,6 +9,7 @@
    journal = {Applied Sciences: Static Analysis Techniques (SAT)},
    title = {Abstracting Strings for Model Checking of C Programs},
    url = {https://www.mdpi.com/2076-3417/10/21/7853},
+   web = {https://divine.fi.muni.cz/2020/mstring/},
    year = {2020},
    abstract="Data type abstraction plays a crucial role in software verification. In this paper, we introduce a domain for abstracting strings in the C programming language, where strings are managed as null-terminated arrays of characters. The new domain M-String is parametrized on an index (bound) domain and a character domain. By means of these different constituent domains, M-Strings captures shape information on the array structure as well as value information on the characters occurring in the string. By tuning these two parameters, M-String can be easily tailored for specific verification tasks, balancing precision against complexity. The concrete and the abstract semantics of basic operations on strings are carefully formalized, and soundness proofs are fully detailed. Moreover, for a selection of functions contained in the standard C library, we provide the semantics for character access and update, enabling an automatic lifting of arbitrary string-manipulating code into our new domain. An implementation of abstract operations is provided within a tool that automatically lifts existing programs into the M-String domain along with an explicit-state model checker. The accuracy of the proposed domain is experimentally evaluated on real-case test programs, showing that M-String can efficiently detect real-world bugs as well as to prove that program does not contain them after they are fixed."
 }
@@ -17,6 +18,7 @@
    author = {Korenčik, Lukáš and Ročkai, Petr and Lauko, Henrich and Barnat, Jiří},
    address = {Neuveden},
    doi = {http://dx.doi.org/10.1109/QRS51102.2020.00044},
+   web = {https://divine.fi.muni.cz/2020/decompile/},
    editor = {Lisa O’Conner},
    keywords = {Decompilation, Symbolic Execution, McSema},
    booktitle="Software Quality, Reliability, and Security (QRS)",
@@ -48,7 +50,8 @@ publisher="Springer International Publishing",
 address="Cham",
 pages="204--208",
 abstract="DIVINE is an LLVM-based verification tool focusing on analysis of real-world C and C++ programs. Such programs often interact with their environment, for example via inputs from users or network. When these programs are analyzed, it is desirable that the verification tool can deal with inputs symbolically and analyze runs for all inputs. In DIVINE, it is now possible to deal with input data via symbolic computation instrumented into the original program at the level of LLVM bitcode. Such an instrumented program maintains symbolic values internally and operates directly on them. Instrumentation allows us to enhance the tool with support for symbolic data without substantial modifications of the tool itself. Namely, this competition contribution uses SMT formulae for representation of input data.",
-isbn="978-3-030-17502-3"
+isbn="978-3-030-17502-3",
+web = {https://divine.fi.muni.cz/2019/sv-comp-smt/}
 }
 
 @InProceedings{MString2019,
@@ -66,7 +69,8 @@ publisher="Springer International Publishing",
 address="Cham",
 pages="74--93",
 abstract="Automatic abstraction is a powerful software verification technique. In this paper, we elaborate an abstract domain for C strings, that is, null-terminated arrays of characters. We describe the abstract semantics of basic string operations and prove their soundness with regards to previously established concrete semantics of those operations. In addition to a selection of string functions from the standard C library, we provide semantics for character access and update, enabling automatic lifting of arbitrary string-manipulating code into the domain.",
-isbn="978-3-030-30923-7"
+isbn="978-3-030-30923-7",
+web = {https://divine.fi.muni.cz/2019/mstring/}
 }
 
 % 2018
@@ -84,7 +88,8 @@ publisher="Springer International Publishing",
 address="Cham",
 pages="313--332",
 abstract="Symbolic computation is an important approach in automated program analysis. Most state-of-the-art tools perform symbolic computation as interpreters and directly maintain symbolic data. In this paper, we show that it is feasible, and in fact practical, to use a compiler-based strategy instead. Using compiler tooling, we propose and implement a transformation which takes a standard program and outputs a program that performs a semantically equivalent, but partially symbolic, computation. The transformed program maintains symbolic values internally and operates directly on them; therefore, the program can be processed by a tool without support for symbolic manipulation.",
-isbn="978-3-030-02508-3"
+isbn="978-3-030-02508-3",
+web = {https://divine.fi.muni.cz/2018/sym/}
 }
 
 % 2017
@@ -104,7 +109,8 @@ publisher="Springer International Publishing",
 address="Cham",
 pages="201--207",
 abstract="The fourth version of the DIVINE model checker provides a modular platform for verification of real-world programs. It is built around an efficient interpreter of LLVM code which, together with a small, verification-oriented operating system and a set of runtime libraries, enables verification of code written in C and C++.",
-isbn="978-3-319-68167-2"
+isbn="978-3-319-68167-2",
+web = {https://divine.fi.muni.cz/2017/divine4/}
 }
 
 @InProceedings{Sym2017,
@@ -140,5 +146,6 @@ publisher="Springer International Publishing",
 address="Cham",
 pages="208--213",
 abstract="We present SymDIVINE: a tool for bit-precise model checking of parallel C and C++ programs. It builds upon LLVM compiler infrastructure, hence, it uses LLVM IR as an input formalism. Internally, SymDIVINE extends the standard explicit-state state space exploration with SMT machinery to handle non-deterministic data values. As such, SymDIVINE is on a halfway between a symbolic executor and an explicit-state model checker. The key differentiating aspect present in SymDIVINE is the ability to decide about equality of two symbolically represented states preventing thus repeated exploration of the state space graph. This is crucially important in particular for verification of parallel programs where the state space graph is full of diamond-shaped subgraphs.",
-isbn="978-3-319-32582-8"
+isbn="978-3-319-32582-8",
+web = {https://github.com/paradise-fi/SymDIVINE}
 }
