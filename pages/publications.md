@@ -8,4 +8,8 @@ layout: page
 {{ year }}
 {% bibliography --query @*[year={{ year }}] %}
 
+{% if forloop.last == false %}
+  ---
+{% endif %}
+
 {% endfor %}
