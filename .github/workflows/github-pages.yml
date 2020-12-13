@@ -15,9 +15,9 @@ jobs:
           ruby-version: 2.7
       - name: Update bundler
         run: gem install bundler
-      - name: Build & Deploy to GitHub Pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
-          GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
-        uses: BryanSchuetz/jekyll-deploy-gh-pages@master
+      - name: setup
+        run: bundle install
+        run: bundle
+      - name: Build
+        run: jekyll build
+      # - name: Deploy
