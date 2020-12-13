@@ -1,3 +1,94 @@
+% 2020
+
+@article{1704118,
+   author = {Lauko, Henrich and Olliaro, Martina and Cortesi, Agostino and Ročkai, Petr},
+   article_number = {10},
+   doi = {http://dx.doi.org/10.3390/app10217853},
+   keywords = {string analysis; model checking; abstract interpretation; abstract domain},
+   issn = {2076-3417},
+   journal = {Applied Sciences},
+   title = {Abstracting Strings for Model Checking of C Programs},
+   url = {https://www.mdpi.com/2076-3417/10/21/7853},
+   volume = {2020},
+   year = {2020},
+   abstract="Data type abstraction plays a crucial role in software verification. In this paper, we introduce a domain for abstracting strings in the C programming language, where strings are managed as null-terminated arrays of characters. The new domain M-String is parametrized on an index (bound) domain and a character domain. By means of these different constituent domains, M-Strings captures shape information on the array structure as well as value information on the characters occurring in the string. By tuning these two parameters, M-String can be easily tailored for specific verification tasks, balancing precision against complexity. The concrete and the abstract semantics of basic operations on strings are carefully formalized, and soundness proofs are fully detailed. Moreover, for a selection of functions contained in the standard C library, we provide the semantics for character access and update, enabling an automatic lifting of arbitrary string-manipulating code into our new domain. An implementation of abstract operations is provided within a tool that automatically lifts existing programs into the M-String domain along with an explicit-state model checker. The accuracy of the proposed domain is experimentally evaluated on real-case test programs, showing that M-String can efficiently detect real-world bugs as well as to prove that program does not contain them after they are fixed."
+}
+
+@inproceedings{1686159,
+   author = {Korenčik, Lukáš and Ročkai, Petr and Lauko, Henrich and Barnat, Jiří},
+   address = {Neuveden},
+   doi = {http://dx.doi.org/10.1109/QRS51102.2020.00044},
+   editor = {Lisa O’Conner},
+   keywords = {Decompilation, Symbolic Execution, McSema},
+   howpublished = {tištěná verze "print"},
+   language = {eng},
+   location = {Neuveden},
+   isbn = {978-1-7281-8913-0},
+   pages = {265-272},
+   publisher = {IEEE Computer Society},
+   title = {On Symbolic Execution of Decompiled Programs},
+   year = {2020},
+   abstract="In this paper, we present a combination of existing and new tools that together make it possible to apply formal verification methods to programs in the form of x86_64 machine code. Our approach first uses a decompilation tool (remill) to extract low-level intermediate representation (LLVM) from the machine code. This step consists of instruction translation(i.e. recovery of operation semantics), control flow extraction and address identification. The main contribution of this paper is the second step, which builds on data flow analysis and refinement of indirect (i.e. data-dependent) control flow. This step makes the processed bitcode much more amenable to formal analysis.To demonstrate the viability of our approach, we have compiled a set of benchmark programs into native executables and analysed them using two LLVM-based tools: DIVINE, a software model checker and KLEE, a symbolic execution engine. We have compared the outcomes to direct analysis of the same programs."
+}
+
+% 2019
+
+@InProceedings{10.1007/978-3-030-17502-3_14,
+author="Lauko, Henrich
+and {\v{S}}till, Vladim{\'i}r
+and Ro{\v{c}}kai, Petr
+and Barnat, Ji{\v{r}}{\'i}",
+editor="Beyer, Dirk
+and Huisman, Marieke
+and Kordon, Fabrice
+and Steffen, Bernhard",
+title="Extending DIVINE with Symbolic Verification Using SMT",
+booktitle="Tools and Algorithms for the Construction and Analysis of Systems",
+year="2019",
+publisher="Springer International Publishing",
+address="Cham",
+pages="204--208",
+abstract="DIVINE is an LLVM-based verification tool focusing on analysis of real-world C and C++ programs. Such programs often interact with their environment, for example via inputs from users or network. When these programs are analyzed, it is desirable that the verification tool can deal with inputs symbolically and analyze runs for all inputs. In DIVINE, it is now possible to deal with input data via symbolic computation instrumented into the original program at the level of LLVM bitcode. Such an instrumented program maintains symbolic values internally and operates directly on them. Instrumentation allows us to enhance the tool with support for symbolic data without substantial modifications of the tool itself. Namely, this competition contribution uses SMT formulae for representation of input data.",
+isbn="978-3-030-17502-3"
+}
+
+@InProceedings{10.1007/978-3-030-30923-7_5,
+author="Cortesi, Agostino
+and Lauko, Henrich
+and Olliaro, Martina
+and Ro{\v{c}}kai, Petr",
+editor="Biondi, Fabrizio
+and Given-Wilson, Thomas
+and Legay, Axel",
+title="String Abstraction for Model Checking of C Programs",
+booktitle="Model Checking Software",
+year="2019",
+publisher="Springer International Publishing",
+address="Cham",
+pages="74--93",
+abstract="Automatic abstraction is a powerful software verification technique. In this paper, we elaborate an abstract domain for C strings, that is, null-terminated arrays of characters. We describe the abstract semantics of basic string operations and prove their soundness with regards to previously established concrete semantics of those operations. In addition to a selection of string functions from the standard C library, we provide semantics for character access and update, enabling automatic lifting of arbitrary string-manipulating code into the domain.",
+isbn="978-3-030-30923-7"
+}
+
+% 2018
+
+@InProceedings{10.1007/978-3-030-02508-3_17,
+author="Lauko, Henrich
+and Ro{\v{c}}kai, Petr
+and Barnat, Ji{\v{r}}{\'i}",
+editor="Fischer, Bernd
+and Uustalu, Tarmo",
+title="Symbolic Computation via Program Transformation",
+booktitle="Theoretical Aspects of Computing -- ICTAC 2018",
+year="2018",
+publisher="Springer International Publishing",
+address="Cham",
+pages="313--332",
+abstract="Symbolic computation is an important approach in automated program analysis. Most state-of-the-art tools perform symbolic computation as interpreters and directly maintain symbolic data. In this paper, we show that it is feasible, and in fact practical, to use a compiler-based strategy instead. Using compiler tooling, we propose and implement a transformation which takes a standard program and outputs a program that performs a semantically equivalent, but partially symbolic, computation. The transformed program maintains symbolic values internally and operates directly on them; therefore, the program can be processed by a tool without support for symbolic manipulation.",
+isbn="978-3-030-02508-3"
+}
+
+% 2017
 @InProceedings{10.1007/978-3-319-68167-2_14,
 author="Baranov{\'a}, Zuzana
 and Barnat, Ji{\v{r}}{\'i}
@@ -16,6 +107,27 @@ pages="201--207",
 abstract="The fourth version of the DIVINE model checker provides a modular platform for verification of real-world programs. It is built around an efficient interpreter of LLVM code which, together with a small, verification-oriented operating system and a set of runtime libraries, enables verification of code written in C and C++.",
 isbn="978-3-319-68167-2"
 }
+
+@InProceedings{10.1007/978-3-662-54580-5_29,
+author="Mr{\'a}zek, Jan
+and Jon{\'a}{\v{s}}, Martin
+and {\v{S}}till, Vladim{\'i}r
+and Lauko, Henrich
+and Barnat, Ji{\v{r}}{\'i}",
+editor="Legay, Axel
+and Margaria, Tiziana",
+title="Optimizing and Caching SMT Queries in SymDIVINE",
+booktitle="Tools and Algorithms for the Construction and Analysis of Systems",
+year="2017",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="390--393",
+abstract="This paper presents a new version of the tool SymDIVINE, a model-checker for concurrent C/C++ programs. SymDIVINE uses a control-explicit data-symbolic approach to model checking, which allows for the bit-precise verification of programs with inputs, by representing data part of a program state by a first-order bit-vector formula. The new version of the tool employs a refined representation of symbolic states, which allows for efficient caching of smt queries. Moreover, the new version employs additional simplifications of first-order bit-vector formulas, such as elimination of unconstrained variables from quantified formulas. All changes are documented in detail in the paper.",
+isbn="978-3-662-54580-5"
+}
+
+
+% 2016
 
 @InProceedings{10.1007/978-3-319-32582-8_14,
 author="Mr{\'a}zek, Jan
