@@ -17,7 +17,6 @@ jobs:
         run: gem install bundler
       - name: setup
         run: bundle install
-        run: bundle
       - name: Build
         run: jekyll build
       # - name: Deploy
