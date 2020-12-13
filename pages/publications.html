@@ -40,37 +40,209 @@
   <section>
     
 <p>2020</p>
-<ol class="bibliography"><li><span id="1704118"><div class="csl-block csl-content"><div class="csl-block csl-title"><b>Abstracting Strings for Model Checking of C Programs</b>. </div><div class="csl-block csl-author">By Lauko, H., Olliaro, M., Cortesi, A. and Ročkai, P.</div><div class="csl-block csl-event">In <i>Applied Sciences: Static Analysis Techniques (SAT)</i></div></div></span>
+<ol class="bibliography"><li><span id="MString2020"><div class="csl-block csl-content"><div class="csl-block csl-title"><b>Abstracting Strings for Model Checking of C Programs</b>. </div><div class="csl-block csl-author">By Lauko, H., Olliaro, M., Cortesi, A. and Ročkai, P.</div><div class="csl-block csl-event">In <i>Applied Sciences: Static Analysis Techniques (SAT)</i></div></div></span>
+
+<div id="MString2020-materials">
+  
+  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#abstract-MString2020" aria-expanded="false" aria-controls="abstract-MString2020">
+  Abstract
+  </button>
+  
+
+  
+  <button class="btn btn-link" type="button">
+  <a href="https://divine.fi.muni.cz/2020/mstring/">Web</a>
+  </button>
+  
+
+  
+  <div class="collapse" id="abstract-MString2020">
+    <hr />
+    Data type abstraction plays a crucial role in software verification. In this paper, we introduce a domain for abstracting strings in the C programming language, where strings are managed as null-terminated arrays of characters. The new domain M-String is parametrized on an index (bound) domain and a character domain. By means of these different constituent domains, M-Strings captures shape information on the array structure as well as value information on the characters occurring in the string. By tuning these two parameters, M-String can be easily tailored for specific verification tasks, balancing precision against complexity. The concrete and the abstract semantics of basic operations on strings are carefully formalized, and soundness proofs are fully detailed. Moreover, for a selection of functions contained in the standard C library, we provide the semantics for character access and update, enabling an automatic lifting of arbitrary string-manipulating code into our new domain. An implementation of abstract operations is provided within a tool that automatically lifts existing programs into the M-String domain along with an explicit-state model checker. The accuracy of the proposed domain is experimentally evaluated on real-case test programs, showing that M-String can efficiently detect real-world bugs as well as to prove that program does not contain them after they are fixed.
+    <hr />
+  </div>
+  
+</div>
 </li>
-<li><span id="1686159"><div class="csl-block csl-content"><div class="csl-block csl-title"><b>On Symbolic Execution of Decompiled Programs</b>.</div><div class="csl-block csl-author">By Korenčik, L., Ročkai, P., Lauko, H. and Barnat, J.</div><div class="csl-block csl-event">In <i>Software Quality, Reliability, and Security (QRS)</i></div></div></span>
+<li><span id="Decomp2020"><div class="csl-block csl-content"><div class="csl-block csl-title"><b>On Symbolic Execution of Decompiled Programs</b>.</div><div class="csl-block csl-author">By Korenčik, L., Ročkai, P., Lauko, H. and Barnat, J.</div><div class="csl-block csl-event">In <i>Software Quality, Reliability, and Security (QRS)</i></div></div></span>
+
+<div id="Decomp2020-materials">
+  
+  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#abstract-Decomp2020" aria-expanded="false" aria-controls="abstract-Decomp2020">
+  Abstract
+  </button>
+  
+
+  
+  <button class="btn btn-link" type="button">
+  <a href="https://divine.fi.muni.cz/2020/decompile/">Web</a>
+  </button>
+  
+
+  
+  <div class="collapse" id="abstract-Decomp2020">
+    <hr />
+    In this paper, we present a combination of existing and new tools that together make it possible to apply formal verification methods to programs in the form of x86_64 machine code. Our approach first uses a decompilation tool (remill) to extract low-level intermediate representation (LLVM) from the machine code. This step consists of instruction translation(i.e. recovery of operation semantics), control flow extraction and address identification. The main contribution of this paper is the second step, which builds on data flow analysis and refinement of indirect (i.e. data-dependent) control flow. This step makes the processed bitcode much more amenable to formal analysis.To demonstrate the viability of our approach, we have compiled a set of benchmark programs into native executables and analysed them using two LLVM-based tools: DIVINE, a software model checker and KLEE, a symbolic execution engine. We have compared the outcomes to direct analysis of the same programs.
+    <hr />
+  </div>
+  
+</div>
 </li></ol>
 
 <hr />
 
 <p>2019</p>
-<ol class="bibliography"><li><span id="10.1007/978-3-030-17502-3_14"><div class="csl-block csl-content"><div class="csl-block csl-title"><b>Extending DIVINE with Symbolic Verification Using SMT</b>.</div><div class="csl-block csl-author">By Lauko, H., Štill, V., Ročkai, P. and Barnat, J.</div><div class="csl-block csl-event">In <i>Tools and Algorithms for the Construction and Analysis of Systems (TACAS)</i></div></div></span>
+<ol class="bibliography"><li><span id="Sym2019"><div class="csl-block csl-content"><div class="csl-block csl-title"><b>Extending DIVINE with Symbolic Verification Using SMT</b>.</div><div class="csl-block csl-author">By Lauko, H., Štill, V., Ročkai, P. and Barnat, J.</div><div class="csl-block csl-event">In <i>Tools and Algorithms for the Construction and Analysis of Systems (TACAS)</i></div></div></span>
+
+<div id="Sym2019-materials">
+  
+  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#abstract-Sym2019" aria-expanded="false" aria-controls="abstract-Sym2019">
+  Abstract
+  </button>
+  
+
+  
+  <button class="btn btn-link" type="button">
+  <a href="https://divine.fi.muni.cz/2019/sv-comp-smt/">Web</a>
+  </button>
+  
+
+  
+  <div class="collapse" id="abstract-Sym2019">
+    <hr />
+    DIVINE is an LLVM-based verification tool focusing on analysis of real-world C and C++ programs. Such programs often interact with their environment, for example via inputs from users or network. When these programs are analyzed, it is desirable that the verification tool can deal with inputs symbolically and analyze runs for all inputs. In DIVINE, it is now possible to deal with input data via symbolic computation instrumented into the original program at the level of LLVM bitcode. Such an instrumented program maintains symbolic values internally and operates directly on them. Instrumentation allows us to enhance the tool with support for symbolic data without substantial modifications of the tool itself. Namely, this competition contribution uses SMT formulae for representation of input data.
+    <hr />
+  </div>
+  
+</div>
 </li>
-<li><span id="10.1007/978-3-030-30923-7_5"><div class="csl-block csl-content"><div class="csl-block csl-title"><b>String Abstraction for Model Checking of C Programs</b>.</div><div class="csl-block csl-author">By Cortesi, A., Lauko, H., Olliaro, M. and Ročkai, P.</div><div class="csl-block csl-event">In <i>Model Checking Software (SPIN)</i></div></div></span>
+<li><span id="MString2019"><div class="csl-block csl-content"><div class="csl-block csl-title"><b>String Abstraction for Model Checking of C Programs</b>.</div><div class="csl-block csl-author">By Cortesi, A., Lauko, H., Olliaro, M. and Ročkai, P.</div><div class="csl-block csl-event">In <i>Model Checking Software (SPIN)</i></div></div></span>
+
+<div id="MString2019-materials">
+  
+  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#abstract-MString2019" aria-expanded="false" aria-controls="abstract-MString2019">
+  Abstract
+  </button>
+  
+
+  
+  <button class="btn btn-link" type="button">
+  <a href="https://divine.fi.muni.cz/2019/mstring/">Web</a>
+  </button>
+  
+
+  
+  <div class="collapse" id="abstract-MString2019">
+    <hr />
+    Automatic abstraction is a powerful software verification technique. In this paper, we elaborate an abstract domain for C strings, that is, null-terminated arrays of characters. We describe the abstract semantics of basic string operations and prove their soundness with regards to previously established concrete semantics of those operations. In addition to a selection of string functions from the standard C library, we provide semantics for character access and update, enabling automatic lifting of arbitrary string-manipulating code into the domain.
+    <hr />
+  </div>
+  
+</div>
 </li></ol>
 
 <hr />
 
 <p>2018</p>
-<ol class="bibliography"><li><span id="10.1007/978-3-030-02508-3_17"><div class="csl-block csl-content"><div class="csl-block csl-title"><b>Symbolic Computation via Program Transformation</b>.</div><div class="csl-block csl-author">By Lauko, H., Ročkai, P. and Barnat, J.</div><div class="csl-block csl-event">In <i>Theoretical Aspects of Computing (ICTAC)</i></div></div></span>
+<ol class="bibliography"><li><span id="Sym2018"><div class="csl-block csl-content"><div class="csl-block csl-title"><b>Symbolic Computation via Program Transformation</b>.</div><div class="csl-block csl-author">By Lauko, H., Ročkai, P. and Barnat, J.</div><div class="csl-block csl-event">In <i>Theoretical Aspects of Computing (ICTAC)</i></div></div></span>
+
+<div id="Sym2018-materials">
+  
+  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#abstract-Sym2018" aria-expanded="false" aria-controls="abstract-Sym2018">
+  Abstract
+  </button>
+  
+
+  
+  <button class="btn btn-link" type="button">
+  <a href="https://divine.fi.muni.cz/2018/sym/">Web</a>
+  </button>
+  
+
+  
+  <div class="collapse" id="abstract-Sym2018">
+    <hr />
+    Symbolic computation is an important approach in automated program analysis. Most state-of-the-art tools perform symbolic computation as interpreters and directly maintain symbolic data. In this paper, we show that it is feasible, and in fact practical, to use a compiler-based strategy instead. Using compiler tooling, we propose and implement a transformation which takes a standard program and outputs a program that performs a semantically equivalent, but partially symbolic, computation. The transformed program maintains symbolic values internally and operates directly on them; therefore, the program can be processed by a tool without support for symbolic manipulation.
+    <hr />
+  </div>
+  
+</div>
 </li></ol>
 
 <hr />
 
 <p>2017</p>
-<ol class="bibliography"><li><span id="10.1007/978-3-319-68167-2_14"><div class="csl-block csl-content"><div class="csl-block csl-title"><b>Model Checking of C and C++ with DIVINE 4</b>.</div><div class="csl-block csl-author">By Baranová, Z., Barnat, J., Kejstová, K., Kučera, T., Lauko, H., Mrázek, J., Ročkai, P. and Štill, V.</div><div class="csl-block csl-event">In <i>Automated Technology for Verification and Analysis (ATVA)</i></div></div></span>
+<ol class="bibliography"><li><span id="Divine2017"><div class="csl-block csl-content"><div class="csl-block csl-title"><b>Model Checking of C and C++ with DIVINE 4</b>.</div><div class="csl-block csl-author">By Baranová, Z., Barnat, J., Kejstová, K., Kučera, T., Lauko, H., Mrázek, J., Ročkai, P. and Štill, V.</div><div class="csl-block csl-event">In <i>Automated Technology for Verification and Analysis (ATVA)</i></div></div></span>
+
+<div id="Divine2017-materials">
+  
+  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#abstract-Divine2017" aria-expanded="false" aria-controls="abstract-Divine2017">
+  Abstract
+  </button>
+  
+
+  
+  <button class="btn btn-link" type="button">
+  <a href="https://divine.fi.muni.cz/2017/divine4/">Web</a>
+  </button>
+  
+
+  
+  <div class="collapse" id="abstract-Divine2017">
+    <hr />
+    The fourth version of the DIVINE model checker provides a modular platform for verification of real-world programs. It is built around an efficient interpreter of LLVM code which, together with a small, verification-oriented operating system and a set of runtime libraries, enables verification of code written in C and C++.
+    <hr />
+  </div>
+  
+</div>
 </li>
-<li><span id="10.1007/978-3-662-54580-5_29"><div class="csl-block csl-content"><div class="csl-block csl-title"><b>Optimizing and Caching SMT Queries in SymDIVINE</b>.</div><div class="csl-block csl-author">By Mrázek, J., Jonáš, M., Štill, V., Lauko, H. and Barnat, J.</div><div class="csl-block csl-event">In <i>Tools and Algorithms for the Construction and Analysis of Systems (TACAS)</i></div></div></span>
+<li><span id="Sym2017"><div class="csl-block csl-content"><div class="csl-block csl-title"><b>Optimizing and Caching SMT Queries in SymDIVINE</b>.</div><div class="csl-block csl-author">By Mrázek, J., Jonáš, M., Štill, V., Lauko, H. and Barnat, J.</div><div class="csl-block csl-event">In <i>Tools and Algorithms for the Construction and Analysis of Systems (TACAS)</i></div></div></span>
+
+<div id="Sym2017-materials">
+  
+  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#abstract-Sym2017" aria-expanded="false" aria-controls="abstract-Sym2017">
+  Abstract
+  </button>
+  
+
+  
+
+  
+  <div class="collapse" id="abstract-Sym2017">
+    <hr />
+    This paper presents a new version of the tool SymDIVINE, a model-checker for concurrent C/C++ programs. SymDIVINE uses a control-explicit data-symbolic approach to model checking, which allows for the bit-precise verification of programs with inputs, by representing data part of a program state by a first-order bit-vector formula. The new version of the tool employs a refined representation of symbolic states, which allows for efficient caching of smt queries. Moreover, the new version employs additional simplifications of first-order bit-vector formulas, such as elimination of unconstrained variables from quantified formulas. All changes are documented in detail in the paper.
+    <hr />
+  </div>
+  
+</div>
 </li></ol>
 
 <hr />
 
 <p>2016</p>
-<ol class="bibliography"><li><span id="10.1007/978-3-319-32582-8_14"><div class="csl-block csl-content"><div class="csl-block csl-title"><b>SymDIVINE: Tool for Control-Explicit Data-Symbolic State Space Exploration</b>.</div><div class="csl-block csl-author">By Mrázek, J., Bauch, P., Lauko, H. and Barnat, J.</div><div class="csl-block csl-event">In <i>Model Checking Software (SPIN)</i></div></div></span>
+<ol class="bibliography"><li><span id="Sym2016"><div class="csl-block csl-content"><div class="csl-block csl-title"><b>SymDIVINE: Tool for Control-Explicit Data-Symbolic State Space Exploration</b>.</div><div class="csl-block csl-author">By Mrázek, J., Bauch, P., Lauko, H. and Barnat, J.</div><div class="csl-block csl-event">In <i>Model Checking Software (SPIN)</i></div></div></span>
+
+<div id="Sym2016-materials">
+  
+  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#abstract-Sym2016" aria-expanded="false" aria-controls="abstract-Sym2016">
+  Abstract
+  </button>
+  
+
+  
+  <button class="btn btn-link" type="button">
+  <a href="https://github.com/paradise-fi/SymDIVINE">Web</a>
+  </button>
+  
+
+  
+  <div class="collapse" id="abstract-Sym2016">
+    <hr />
+    We present SymDIVINE: a tool for bit-precise model checking of parallel C and C++ programs. It builds upon LLVM compiler infrastructure, hence, it uses LLVM IR as an input formalism. Internally, SymDIVINE extends the standard explicit-state state space exploration with SMT machinery to handle non-deterministic data values. As such, SymDIVINE is on a halfway between a symbolic executor and an explicit-state model checker. The key differentiating aspect present in SymDIVINE is the ability to decide about equality of two symbolically represented states preventing thus repeated exploration of the state space graph. This is crucially important in particular for verification of parallel programs where the state space graph is full of diamond-shaped subgraphs.
+    <hr />
+  </div>
+  
+</div>
 </li></ol>
 
 
