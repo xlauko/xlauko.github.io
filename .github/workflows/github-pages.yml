@@ -10,12 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-      - uses: actions/checkout@v2.3.1
+        uses: actions/checkout@v2.3.1
         with:
           persist-credentials: false
 
       - name: Cache
-      - uses: actions/cache@v1
+        uses: actions/cache@v1
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
@@ -23,7 +23,7 @@ jobs:
             ${{ runner.os }}-gems-
 
       - name: Build and deploy
-      - uses:  helaili/jekyll-action@2.0.4
+        uses:  helaili/jekyll-action@2.0.4
         env:
           JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
         with:
