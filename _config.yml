@@ -30,8 +30,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-scholar
 
-exclude: [vendor]
-
 # A list of the pages to display in the navigation bar
 header_pages:
 
