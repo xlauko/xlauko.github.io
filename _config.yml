@@ -33,6 +33,10 @@ plugins:
 # A list of the pages to display in the navigation bar
 header_pages:
 
+scholar:
+  style: _bibliography/simple-ieee.csl
+  bibliography_template: publication
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
