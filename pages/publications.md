@@ -36,10 +36,11 @@ Thesis
       To show reliability of software, developers usually reach out for testing and static analysis. However, to prove correctness, all behaviours of a program need to be checked. In this respect, formal verification methods aim to provide an automated approach to verification. A big obstacle are inputs because they massively increase the number of behaviours of the program. In this thesis, we present a technique which enables verification tools to perform automated checking of programs with inputs. A generally known approach is to interpret operations with input values in an abstract way. In this case, abstraction needs to be implemented in the verification tool. We propose that instead, an abstraction can be compiled into the program. Hence, the program can be verified by a tool even though the tool itself does not support abstraction of inputs. We implement the proposed approach as an LLVM-to-LLVM transformation which inserts an abstraction to the program. The applicability of the approach is demonstrated by transforming programs to represent their inputs symbolically. This, in turn, enables an essentially explicit-state model checker to verify the program. For evaluation purposes, we have chosen DIVINE as the model checker.
       <hr>
     </div>
+    <i class='fa fa-trophy'> Dean's award for an Outstanding Final Thesis</i>
   </div>
 
 
-- Introduction to data structures in examples (_bachelor thesis_)
+- Introduction to Data Structures in Examples (_bachelor thesis_)
   <div id="bachelor-materials">
     <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#abstract-bachelor" aria-expanded="false" aria-controls="abstract-bachelor">
     Abstract
