@@ -24,3 +24,9 @@ However, a migration to standalone package is in progress on [github](https://gi
 ### The Battle for Middle-earth: Reforged
 
 As a fan, I help with the resurrection of an old realtime strategy (The Battle for the Middle-earth). I involve in the development of core game mechanics and engine programming. The project is written on a new unreal engine in C++. Find more about the project on project [website](https://bfmereforged.org/).
+
+---
+
+### DIPOT
+
+A small tool that generates C++ monitors suited for LTL model cheking. It uses [SPOT](https://spot.lrde.epita.fr/) as an underlying library to generate an automata structure. ([github](https://github.com/paradise-fi/dipot))
