@@ -11,6 +11,8 @@ This framework leverages program instrumentation and compiler tooling, allowing 
 
 ### Teaching
 
+---
+
 I engage in teaching at university, especially in courses on:
 
 - algorithms and data structures [IB002](https://is.muni.cz/predmet/fi/jaro2020/IB002?lang=en),
@@ -21,6 +23,13 @@ I engage in teaching at university, especially in courses on:
 
 I am a co-author of exercise books for courses on algorithms and data structures and foundations of programming.
 
+### Volunteering
+
 ---
 
 I actively engage in volunteering activities for high school students and puzzlehunt competitions.
+As a member of the [Nordic Animals Association](https://zverinec.fi.muni.cz/) (IT student association that organizes events for high school students), I participate in the organization of:
+
+- [KSI](https://ksi.fi.muni.cz/), an online seminar of computer science
+- [K-SCUK](https://kscuk.fi.muni.cz/), a weeklong camp for high school students interested in computer science and/or biology.
+- [InterLos](https://interlos.fi.muni.cz/), [InterSob](https://intersob.math.muni.cz/) -- puzzlehunt-like competitions.
