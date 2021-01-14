@@ -33,3 +33,9 @@ As a member of the [Nordic Animals Association](https://zverinec.fi.muni.cz/) (I
 - [KSI](https://ksi.fi.muni.cz/), a yearlong online seminar on computer science for high school students,
 - [K-SCUK](https://kscuk.fi.muni.cz/), a weeklong camp for students interested in computer science and/or biology,
 - [InterLos](https://interlos.fi.muni.cz/), [InterSob](https://intersob.math.muni.cz/) -- puzzlehunt-like competitions.
+
+### Service
+
+---
+
+- SV-COMP 2019 -- 2021 jury member of software verification competition
