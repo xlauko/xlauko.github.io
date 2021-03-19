@@ -15,7 +15,7 @@ This framework leverages program instrumentation and compiler tooling, allowing 
 
 I engage in teaching at university, especially in courses on:
 
-- [PB161](https://is.muni.cz/auth/course/fi/jaro2021/PB161?lang=en) C++ programmign,
+- [PB161](https://is.muni.cz/auth/course/fi/jaro2021/PB161?lang=en) C++ programming,
 - [IB002](https://is.muni.cz/predmet/fi/jaro2020/IB002?lang=en) algorithms and data structures,
 - [IB111](https://is.muni.cz/predmet/fi/podzim2020/IB111?lang=en) foundations of programming,
 - [IB102](https://is.muni.cz/predmet/fi/podzim2011/IB102?lang=en) automata and grammars,
