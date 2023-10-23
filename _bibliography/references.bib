@@ -1,3 +1,78 @@
+% 2022
+
+@article{Pointers2022,
+author = {Lauko, Henrich and Koren\v{c}ik, Luk\'{a}\v{s} and Ro\v{c}kai, Petr},
+title = {Verification of Programs Sensitive To&nbsp;Heap&nbsp;Layout},
+year = {2022},
+issue_date = {October 2022},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {31},
+number = {4},
+issn = {1049-331X},
+url = {https://doi.org/10.1145/3508363},
+doi = {10.1145/3508363},
+abstract = {Most C and C++ programs use dynamically allocated memory (often known as a heap) to store and organize their data. In practice, it can be useful to compare addresses of different heap objects, for instance, to store them in a binary search tree or a sorted array. However, comparisons of pointers to distinct objects are&nbsp;inherently ambiguous: The address order of two objects can be reversed in different executions of the same program, due to the nature of the allocation algorithm and other external factors.This poses a significant challenge to program verification, since a sound verifier must consider all possible behaviors of a program, including an arbitrary reordering of the heap. A naive verification of all possibilities, of course, leads to a&nbsp;combinatorial explosion of the state space: For this reason, we propose an under-approximating abstract domain that can be soundly refined to consider all relevant heap orderings.We have implemented the proposed abstract domain and evaluated it against several existing software verification tools on a&nbsp;collection of pointer-manipulating programs. In many cases, existing tools only consider a single fixed heap order, which is a source of unsoundness. We&nbsp;demonstrate that using our abstract domain, this unsoundness can be repaired at only a very modest performance cost. Additionally, we show that, even though many verifiers ignore it, ambiguous behavior is present in a considerable fraction of programs from software verification competition (sv-comp).},
+journal = {ACM Trans. Softw. Eng. Methodol.},
+month = {sep},
+articleno = {71},
+numpages = {27},
+keywords = {program transformation, abstraction, refinement, Heap, pointers},
+web = {https://divine.fi.muni.cz/2021/pointers/}
+}
+
+@InProceedings{Spot2022,
+author="Duret-Lutz, Alexandre
+and Renault, Etienne
+and Colange, Maximilien
+and Renkin, Florian
+and Gbaguidi Aisse, Alexandre
+and Schlehuber-Caissier, Philipp
+and Medioni, Thomas
+and Martin, Antoine
+and Dubois, J{\'e}r{\^o}me
+and Gillard, Cl{\'e}ment
+and Lauko, Henrich",
+editor="Shoham, Sharon
+and Vizel, Yakir",
+title="From Spot 2.0 to Spot 2.10: What's New?",
+booktitle="Computer Aided Verification",
+year="2022",
+publisher="Springer International Publishing",
+address="Cham",
+pages="174--187",
+abstract="Spot is a C++17 library for LTL and {\$}{\$}{\backslash}omega {\$}{\$}$\omega$-automata manipulation, with command-line utilities, and Python bindings. This paper summarizes its evolution over the past six years, since the release of Spot 2.0, which was the first version to support {\$}{\$}{\backslash}omega {\$}{\$}$\omega$-automata with arbitrary acceptance conditions, and the last version presented at a conference. Since then, Spot has been extended with several features such as acceptance transformations, alternating automata, games, LTL synthesis, and more. We also shed some lights on the data-structure used to store automata.",
+isbn="978-3-031-13188-2",
+url = {https://link.springer.com/chapter/10.1007/978-3-031-13188-2_9},
+}
+
+
+
+@misc{Lauko2022optimization,
+      title={On the Optimization of Equivalent Concurrent Computations},
+      author={Henrich Lauko and Lukáš Korenčik and Peter Goodman},
+      year={2022},
+      eprint={2208.06295},
+      archivePrefix={arXiv},
+      primaryClass={cs.DC},
+      url = {https://arxiv.org/abs/2208.06295},
+      abstract = {In this submission, we explore the use of equality saturation to optimize concurrent computations. A concurrent environment gives rise to new optimization opportunities, like extracting a common concurrent subcomputation. To our knowledge, no existing equality saturation framework allows such an optimization. The challenge with concurrent environments is that they require non-local reasoning since parallel computations are inherently unrelated and disjoint. This submission presents a new approach to optimizing equivalent concurrent computations: extending e-graphs to capture equal concurrent computations in order to replace them with a single computation.}
+}
+
+@inproceedings{Lart2022,
+   author="Lauko, Henrich and Ročkai, Petr",
+   editor="Fisman, Dana and Rosu, Grigore",
+   title="LART: Compiled Abstract Execution",
+   booktitle="Tools and Algorithms for the Construction and Analysis of Systems",
+   year="2022",
+   publisher="Springer International Publishing",
+   address="Cham",
+   pages="457--461",
+   abstract="LART -- LLVM Abstraction and Refinement Tool -- originates from the divine model-checker, in which it was employed as an abstraction toolchain for the llvm interpreter. In this contribution, we present a stand-alone tool that does not need a verification backend but performs the verification natively. The core idea is to instrument abstract semantics directly into the program and compile it into a native binary that performs program analysis. This approach provides a performance gain of native execution over the interpreted analysis and allows compiler optimizations to be employed on abstracted code, further extending the analysis efficiency. Compilation-based abstraction introduces new challenges solved by lart, like domain interaction of concrete and abstract values simulation of nondeterministic runtime or constraint propagation.",
+   isbn="978-3-030-99527-0",
+   url = {https://link.springer.com/chapter/10.1007/978-3-030-99527-0_31},
+}
+
 % 2020
 
 @article{MString2020,
