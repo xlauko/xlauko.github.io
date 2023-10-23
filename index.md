@@ -2,12 +2,28 @@
 layout: home
 ---
 
-I am a Ph.D. candidate at the
+I am a compiler engineer primarily focusing on program analysis and language
+theory. I am passionate about unraveling the intricacies of sound and usable
+program representation and transformations. Currently, I hold the position of a
+senior research engineer at [Trail of Bits](https://www.trailofbits.com/), where
+I am involved in multiple compiler-related projects (most of the work is open
+source, and you can explore these projects in greater detail in the
+[Projects](https://xlauko.github.io/pages/projects) section).
+
+I am on the verge of completing my Ph.D. candidacy, awaiting my defense, at the
 [Faculty of Informatics, Masaryk University in Brno](https://www.fi.muni.cz/).
-The focus of my research is on the analysis and the verification of C/C++ programs.
-Presently, I am mostly interested in the efficient representation of program inputs (nondeterministic data) for verification.
-I mainly focus on adapting existing techniques like symbolic execution or abstract interpretation to a general framework LART – LLVM Abstraction and Refinement Tool.
-This framework leverages program instrumentation and compiler tooling, allowing to design input data representation easily.
+Throughout my academic journey, I have concentrated on the analysis and
+verification of C/C++ programs. My research has been primarily dedicated to
+enhancing the efficient representation of program inputs, especially
+nondeterministic data, for the purpose of verification. I've focused on the
+adaptation of existing techniques, such as symbolic execution and abstract
+interpretation, within the general framework [LART](https://github.com/xlauko/lart) – LLVM Abstraction and
+Refinement Tool. This framework harnesses the power of program instrumentation
+and compiler tools, making it simpler to design effective input data
+representations.
+
+Feel free to delve deeper into my research and projects on this page, and don't
+hesitate to reach out for collaboration or further discussion.
 
 ### Teaching
 
