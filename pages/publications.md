@@ -11,7 +11,7 @@ Thesis
     </button>
 
     <button class="btn btn-link" type="button">
-    <a href="https://is.muni.cz/auth/th/uqf69/?lang=en">Web</a>
+    <a href="https://is.muni.cz/th/uqf69/?lang=en">Web</a>
     </button>
 
     <div class="collapse" id="abstract-amaster">
@@ -28,7 +28,7 @@ Thesis
     </button>
 
     <button class="btn btn-link" type="button">
-    <a href="https://is.muni.cz/auth/th/owq0x/?lang=en">Web</a>
+    <a href="https://is.muni.cz/th/owq0x/?lang=en">Web</a>
     </button>
 
     <div class="collapse" id="abstract-master">
@@ -47,7 +47,7 @@ Thesis
     </button>
 
     <button class="btn btn-link" type="button">
-    <a href="https://is.muni.cz/auth/th/vlg4z/?lang=en">Web</a>
+    <a href="https://is.muni.cz/th/vlg4z/?lang=en">Web</a>
     </button>
 
     <div class="collapse" id="abstract-bachelor">
