@@ -59,7 +59,7 @@ Thesis
 ---
 
 
-{% for year in (2016..2020) reversed %}
+{% for year in (2016..2022) reversed %}
 
 {{ year }}
 {% bibliography --query @*[year={{ year }}] %}
