@@ -140,10 +140,10 @@ Luckily this year’s program was a bit less MLIR-focused, which actually made i
 <p>The available hardening modes are:</p>
 
 <ul>
-  <li><strong>Unchecked</strong>: Is default mode that does not compromise any performance.</li>
-  <li><strong>Hardened</strong>: This mode focuses on security-critical low-overhead checks only ( validity of input range and element access checks).</li>
-  <li><strong>Debug-lite</strong>: In this mode, additional low-overhead checks are included, e.g., non-null arguments,  non-overlapping ranges, and checks on compatibility of allocators.</li>
-  <li><strong>Debug</strong>: This mode activates all checks, covering further internal checks.</li>
+  <li><strong>none</strong>: Is default mode that does not compromise any performance.</li>
+  <li><strong>fast</strong>: This mode focuses on security-critical low-overhead checks only (validity of input range and element access checks).</li>
+  <li><strong>extensive</strong>: In this mode, additional low-overhead checks are included, e.g., non-null arguments,  non-overlapping ranges, and checks on compatibility of allocators.</li>
+  <li><strong>debug</strong>: This mode activates all checks, covering further internal checks.</li>
 </ul>
 
 <p>Please note that some checks may require an ABI break, such as having a different representation of an iterator for overlap checks of spans. In such cases, it is left to the library vendors to determine the mode they provide on their system. This approach ensures that users are not burdened with ABI-related concerns, as the ABI is a property of the entire platform.</p>
@@ -154,7 +154,7 @@ Luckily this year’s program was a bit less MLIR-focused, which actually made i
 
 <p>To use this feature, compile your C++ code as follows:</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>clang++ <span class="nt">-std</span><span class="o">=</span>c++20 <span class="nt">-flibc</span>++-hardening<span class="o">=</span>hardened <span class="se">\</span>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>clang++ <span class="nt">-std</span><span class="o">=</span>c++20 <span class="nt">-flibc</span>++-hardening<span class="o">=</span>fast <span class="se">\</span>
   <span class="nt">-Wunsafe-buffer-usage</span> <span class="nt">-fsafe-buffer-usage-suggestions</span> <span class="se">\</span>
   source.cpp
 </code></pre></div></div>
