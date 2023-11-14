@@ -87,10 +87,10 @@ The primary objective of this work is to address UB in Libc++ by translating sel
 
 The available hardening modes are:
 
-- **Unchecked**: Is default mode that does not compromise any performance.
-- **Hardened**: This mode focuses on security-critical low-overhead checks only ( validity of input range and element access checks).
-- **Debug-lite**: In this mode, additional low-overhead checks are included, e.g., non-null arguments,  non-overlapping ranges, and checks on compatibility of allocators.
-- **Debug**: This mode activates all checks, covering further internal checks.
+- **none**: Is default mode that does not compromise any performance.
+- **fast**: This mode focuses on security-critical low-overhead checks only (validity of input range and element access checks).
+- **extensive**: In this mode, additional low-overhead checks are included, e.g., non-null arguments,  non-overlapping ranges, and checks on compatibility of allocators.
+- **debug**: This mode activates all checks, covering further internal checks.
 
 Please note that some checks may require an ABI break, such as having a different representation of an iterator for overlap checks of spans. In such cases, it is left to the library vendors to determine the mode they provide on their system. This approach ensures that users are not burdened with ABI-related concerns, as the ABI is a property of the entire platform.
 
@@ -101,7 +101,7 @@ The related talk on buffer overflows introduced a new option for the Clang compi
 To use this feature, compile your C++ code as follows:
 
 ```bash
-clang++ -std=c++20 -flibc++-hardening=hardened \
+clang++ -std=c++20 -flibc++-hardening=fast \
   -Wunsafe-buffer-usage -fsafe-buffer-usage-suggestions \
   source.cpp
 ```
