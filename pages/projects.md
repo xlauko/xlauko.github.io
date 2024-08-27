@@ -7,10 +7,14 @@ layout: page
 I am a code owner and the architect of the [VAST](https://github.com/trailofbits/vast) project. VAST is a versatile library and compiler frontend tailored for the analysis and instrumentation of C/C++ language family. This project provides a foundation for customizable program representation for a broad spectrum of analyses. Leveraging the MLIR infrastructure, VAST provides a toolset to represent C/C++ programs at various stages of the compilation and to transform the representation to the best-fit program abstraction.
 The development of this project is undertaken within the R&E Department at Trail of Bits, with funding provided by the DARPA research program known as V-SPELLS.
 
+---
+
 #### Circuitous
 
 [Circuitous](https://github.com/trailofbits/circuitous) comprises a collection of tools and libraries that play a pivotal role in Trail of Bits' involvement in the DARPA SIEVE program, focusing on generating circuits for zero-knowledge proofs of exploits. What sets Circuitous apart is its ability to tailor these circuits to specific binaries. This is achieved by lifting binaries to LLVM and reconstructing instruction decoding through the process of fuzzing. The generated circuits are then lowered to a custom CircIR (an LLVM substrate), with further optimizations applied using an equality saturation-based framework. CircIR is versatile and can produce circuits in various formats, with our preference being Verilog in the context of the SIEVE program.
 My primary contributions to this project revolve around optimizations, equality saturation, and the development of benchmarking infrastructure.
+
+---
 
 #### DIVINE
 
