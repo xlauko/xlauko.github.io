@@ -52,6 +52,16 @@ I have presented my work at various venues:
     &#124; Poster &#124; Euro LLVM Developers' Meeting 2024
 - [PoTATo: Points-to analysis via domain specific MLIR dialect](/assets/potato-poster.pdf) <br>
     &#124; Poster &#124; Euro LLVM Developers' Meeting 2024
+- [On the Optimization of Equivalent Concurrent Computations](https://pldi22.sigplan.org/home/egraphs-2022#) <br>
+    &#124; Talk &#124; EGRAPHS 2022
+- [LART: Compiled Abstract Execution](LART: Compiled Abstract Execution) <br>
+    &#124; Talk &#124; TACAS SV-COMP 2022
+- [String Abstraction for Model Checking of C Programs](https://link.springer.com/chapter/10.1007/978-3-030-30923-7_5)  <br>
+    &#124; Talk &#124; SPIN 2019
+- [Extending DIVINE with Symbolic Verification Using SMT](https://link.springer.com/chapter/10.1007/978-3-030-17502-3_14)  <br>
+    &#124; Talk &#124; TACAS SV-COMP 2019
+- [Symbolic Computation via Program Transformation](https://link.springer.com/chapter/10.1007/978-3-030-02508-3_17) <br>
+    &#124; Talk &#124; ICTAC 2018
 
 ### Teaching
 
