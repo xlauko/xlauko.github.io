@@ -44,13 +44,13 @@ I serve on several committees for conferences focused on C/C++, LLVM, and MLIR a
 
 I have presented my work at various venues:
 
-- [C/C++ MLIR Frontends Round table orginzer ](https://llvm.swoogo.com/2024eurollvm/session/1917542/round-tables)
+- [C/C++ MLIR Frontends Round table orginzer ](https://llvm.swoogo.com/2024eurollvm/session/1917542/round-tables) <br>
     &#124; Round table &#124; Euro LLVM Developers' Meeting 2024
-- [Repurposing LLVM analyses in MLIR: Also there and back again across the tower of IRs](https://youtu.be/pfViYCignjY?si=UcxED5Id3S0WC8tR)
+- [Repurposing LLVM analyses in MLIR: Also there and back again across the tower of IRs](https://youtu.be/pfViYCignjY?si=UcxED5Id3S0WC8tR) <br>
     &#124; Talk &#124; Euro LLVM Developers' Meeting 2024
-- [VAST: MLIR compiler for C/C++](/assets/vast-poster.pdf)
+- [VAST: MLIR compiler for C/C++](/assets/vast-poster.pdf) <br>
     &#124; Poster &#124; Euro LLVM Developers' Meeting 2024
-- [PoTATo: Points-to analysis via domain specific MLIR dialect](/assets/potato-poster.pdf)
+- [PoTATo: Points-to analysis via domain specific MLIR dialect](/assets/potato-poster.pdf) <br>
     &#124; Poster &#124; Euro LLVM Developers' Meeting 2024
 
 ### Teaching
