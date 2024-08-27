@@ -4,6 +4,23 @@ layout: page
 
 Thesis
 
+- Abstraction via Program Transformation (_doctoral thesis_)
+  <div id="doctoral-materials">
+    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#abstract-doctoral" aria-expanded="false" aria-controls="abstract-doctoral">
+    Abstract
+    </button>
+
+    <button class="btn btn-link" type="button">
+    <a href="https://is.muni.cz/th/mkjtn/?lang=en">Web</a>
+    </button>
+
+    <div class="collapse" id="abstract-doctoral">
+      <hr>
+      In the field of computer-aided verification, abstraction techniques are indispensable as they play a critical role in reducing the complexity of the verification process to manageable sizes. However, these techniques are usually tightly integrated into tools, resulting in undesired complexity and neglect of reusable design. If one wants to employ a particular abstraction in several tools, the common approach is to implement the abstraction separately for each tool. However, this results in unnecessary duplication of an effort and inconsistent results as different implementations may vary. This thesis aims to address this challenge by developing a solution to reduce the duplication and complexity of abstraction. The overarching objective is to create a tool-independent program abstraction and utilize it to design program analysis techniques that can be applied by any tool, thereby reducing its complexity and allowing abstraction reusability. What is common between tools is the program representation they operate with. One such representation that has gained popularity is the LLVM intermediate representation of the Clang compiler. It can serve as a shared source of truth between tools and encode additional information for program analysis. In this doctoral thesis, we propose a solution to tool-independent abstraction by reconceiving it in terms of the intermediate representation. The key idea of the presented approach is to express abstract semantics in terms of intermediate representation, resulting in the abstraction being understandable to any tool which uses LLVM IR. We refer to this approach as compilation-based abstraction, as it essentially compiles abstract semantics into the program being analyzed. The compilation-based abstraction approach has broad applicability in the field of program analysis. This thesis demonstrates its potential in recasting symbolic execution as program abstraction, enabling explicit tools to perform symbolic analysis or even run symbolic programs natively. The focus will also be on more complex program primitives such as C arrays or strings, which require elaborated abstraction. The approach is extended to encompass aggregate types and library-level abstractions. Additionally, attention is given to dynamic memory abstraction, specifically the problem of ambiguous dynamic memory layout, which is often overlooked in analysis tools. Furthermore, the compilation-based abstraction approach opens up new possibilities for refinement techniques that can enhance the precision of the employed abstraction. This thesis explores the potential for instrumenting refinement directly into the program and counterexample-guided syntactic abstraction of program representation. In summary, this thesis provides an autonomous solution for instrumenting abstraction into program representation. The presented approach addresses various issues related to program domain interactions, control flow, and dynamic memory. It includes adaptations of symbolic execution, software model checking, and syntactic refinement loops. Moreover, by enabling the native execution of compiled abstraction, this approach not only streamlines the program abstraction design process but also enhances the efficiency of program analysis. Our main contributions culminated in the development of an LLVM Abstraction & Refinement Tool – LART. This tool implements all discussed abstractions and has been shown to be effective both in conjunction with other tools and in producing natively executable abstractions.
+      <hr>
+    </div>
+  </div>
+
 - Abstractions via Program Transformations (_advanced master thesis_)
   <div id="amaster-materials">
     <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#abstract-amaster" aria-expanded="false" aria-controls="abstract-amaster">
