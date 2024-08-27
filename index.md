@@ -29,8 +29,9 @@ hesitate to reach out for collaboration or further discussion.
 
 ---
 
-- [ISO WG21 The C++ Standrads Committee](https://isocpp.org/std/the-committee) | Standards committee member
+I serve on several committees for conferences focused on C/C++, LLVM, and MLIR analysis and compilation:
 
+- [ISO WG21 The C++ Standrads Committee](https://isocpp.org/std/the-committee) | Standards committee member
 - [LLVM Developers' Meeting 2024](https://llvm.swoogo.com/2023devmtg) | Program committee
 - [Euro LLVM Developers' Meeting 2024](https://llvm.swoogo.com/2024eurollvm) | Program committee
 - [ATVA 2024](https://atva-conference.org/2024/) | Artifact Evaluation committee
