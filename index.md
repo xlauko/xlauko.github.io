@@ -35,7 +35,6 @@ I serve on several committees for conferences focused on C/C++, LLVM, and MLIR a
 - [LLVM Developers' Meeting 2024](https://llvm.swoogo.com/2023devmtg) &#124; Program committee
 - [Euro LLVM Developers' Meeting 2024](https://llvm.swoogo.com/2024eurollvm) &#124; Program committee
 - [ATVA 2024](https://atva-conference.org/2024/) &#124; Artifact Evaluation committee
-- [LLVM Developers' Meeting 2023](https://llvm.swoogo.com/2023devmtg) &#124; Program committee
 - [SV-COMP](https://sv-comp.sosy-lab.org/) 2019 -- 2021 &#124; Jury member of software verification competition
 
 ### Talks &amp; Presentations
