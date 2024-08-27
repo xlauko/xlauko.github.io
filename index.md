@@ -24,6 +24,19 @@ simplify the design of effective input data representations.
 Feel free to delve deeper into my research and projects on this page, and don't
 hesitate to reach out for collaboration or further discussion.
 
+
+### Service
+
+---
+
+- [ISO WG21 The C++ Standrads Committee](https://isocpp.org/std/the-committee) | Standards committee member
+
+- [LLVM Developers' Meeting 2024](https://llvm.swoogo.com/2023devmtg) | Program committee
+- [Euro LLVM Developers' Meeting 2024](https://llvm.swoogo.com/2024eurollvm) | Program committee
+- [ATVA 2024](https://atva-conference.org/2024/) | Artifact Evaluation committee
+- [LLVM Developers' Meeting 2023](https://llvm.swoogo.com/2023devmtg) | Program committee
+- [SV-COMP](https://sv-comp.sosy-lab.org/) 2019 -- 2021 | Jury member of software verification competition
+
 ### Teaching
 
 ---
@@ -54,9 +67,3 @@ I am also active member of [Instruktori Brno](https://www.instruktori.cz/), wher
 
 - [TMOU](https://www.tmou.cz/) -- the largest puzzlehund in Czech republic.
 - [Civilizace](https://civilizace.instruktori.cz/) -- weekend camp with spirit of Sid Meyers' Civilazation but live.
-
-### Service
-
----
-
-- SV-COMP 2019 -- 2021 jury member of software verification competition
