@@ -33,7 +33,7 @@ I serve on several committees for conferences focused on C/C++, LLVM, and MLIR a
 
 - [ISO WG21 The C++ Standrads Committee](https://isocpp.org/std/the-committee) &#124; Standards committee member
 - [LLVM Developers' Meeting 2024](https://llvm.swoogo.com/2023devmtg) &#124; Program committee
-- [](https://llvm.swoogo.com/2024eurollvm) &#124; Program committee
+- [Euro LLVM Developers' Meeting 2024](https://llvm.swoogo.com/2024eurollvm) &#124; Program committee
 - [ATVA 2024](https://atva-conference.org/2024/) &#124; Artifact Evaluation committee
 - [LLVM Developers' Meeting 2023](https://llvm.swoogo.com/2023devmtg) &#124; Program committee
 - [SV-COMP](https://sv-comp.sosy-lab.org/) 2019 -- 2021 &#124; Jury member of software verification competition
@@ -44,8 +44,14 @@ I serve on several committees for conferences focused on C/C++, LLVM, and MLIR a
 
 I have presented my work at various venues:
 
-- [C/C++ MLIR Frontends Round table orginzer &#124; Euro LLVM Developers' Meeting 2024](https://llvm.swoogo.com/2024eurollvm/session/1917542/round-tables)
-- [Repurposing LLVM analyses in MLIR: Also there and back again across the tower of IRs &#124; Euro LLVM Developers' Meeting 2024](https://youtu.be/pfViYCignjY?si=UcxED5Id3S0WC8tR)
+- [C/C++ MLIR Frontends Round table orginzer ](https://llvm.swoogo.com/2024eurollvm/session/1917542/round-tables)
+    &#124; Round table &#124; Euro LLVM Developers' Meeting 2024
+- [Repurposing LLVM analyses in MLIR: Also there and back again across the tower of IRs](https://youtu.be/pfViYCignjY?si=UcxED5Id3S0WC8tR)
+    &#124; Talk &#124; Euro LLVM Developers' Meeting 2024
+- [VAST: MLIR compiler for C/C++](/assets/vast-poster.pdf)
+    &#124; Poster &#124; Euro LLVM Developers' Meeting 2024
+- [PoTATo: Points-to analysis via domain specific MLIR dialect](/assets/potato-poster.pdf)
+    &#124; Poster &#124; Euro LLVM Developers' Meeting 2024
 
 ### Teaching
 
