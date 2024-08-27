@@ -64,7 +64,7 @@ As a member of the [Nordic Animals Association](https://zverinec.fi.muni.cz/) (I
 - [K-SCUK](https://kscuk.fi.muni.cz/), a weeklong camp for students interested in computer science and/or biology,
 - [InterLos](https://interlos.fi.muni.cz/), [InterSob](https://intersob.math.muni.cz/) -- puzzlehunt-like competitions.
 
-I am also active member of [Instruktori Brno](https://www.instruktori.cz/), where I have participate in organization of:
+I am also active member of [Instruktori Brno](https://www.instruktori.cz/), where I participate in organization of:
 
 - [TMOU](https://www.tmou.cz/) -- the largest puzzlehund in Czech republic.
 - [Civilizace](https://civilizace.instruktori.cz/) -- weekend camp with spirit of Sid Meyers' Civilazation but live.

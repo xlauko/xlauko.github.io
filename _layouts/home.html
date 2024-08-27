@@ -16,6 +16,7 @@ layout: default
 
   {%- if site.posts.size > 0 -%}
     <p class="h4">{{ page.list_title | default: "Posts" }}</p>
+    <hr>
     <ul class="list-unstyled">
       {%- for post in site.posts -%}
       <li>
