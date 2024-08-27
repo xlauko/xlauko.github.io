@@ -2,25 +2,24 @@
 layout: home
 ---
 
-I am a compiler engineer primarily focusing on program analysis and language
-theory. I am passionate about unraveling the intricacies of sound and usable
-program representation and transformations. Currently, I hold the position of a
-senior research engineer at [Trail of Bits](https://www.trailofbits.com/), where
-I am involved in multiple compiler-related projects (most of the work is open
-source, and you can explore these projects in greater detail in the
-[Projects](https://xlauko.github.io/pages/projects) section).
+I am a compiler engineer specializing in program analysis and language theory,
+with a particular focus on MLIR, high-level program representation, and
+optimization for C/C++. I am passionate about exploring and refining program
+transformations to enhance efficiency and usability. Currently, I serve as a
+Senior Research Engineer at [Trail of Bits](https://www.trailofbits.com/), where
+I lead the compilers team and act as the tech lead for several compiler-related
+projects. Many of these projects are open source; you can explore them further
+in the [Projects](https://xlauko.github.io/pages/projects) section.
 
-I am on the verge of completing my Ph.D. candidacy, awaiting my defense, at the
-[Faculty of Informatics, Masaryk University in Brno](https://www.fi.muni.cz/).
-Throughout my academic journey, I have concentrated on the analysis and
-verification of C/C++ programs. My research has been primarily dedicated to
-enhancing the efficient representation of program inputs, especially
-nondeterministic data, for the purpose of verification. I've focused on the
-adaptation of existing techniques, such as symbolic execution and abstract
-interpretation, within the general framework [LART](https://github.com/xlauko/lart) – LLVM Abstraction and
-Refinement Tool. This framework harnesses the power of program instrumentation
-and compiler tools, making it simpler to design effective input data
-representations.
+I have completed my Ph.D. at the [Faculty of Informatics, Masaryk University in
+Brno](https://www.fi.muni.cz/), with my research focusing on the analysis and
+verification of C/C++ programs. My work centered on enhancing the efficient
+representation of program inputs, particularly nondeterministic data, for
+verification purposes. I concentrated on adapting existing techniques such as
+symbolic execution and abstract interpretation within the
+[LART](https://github.com/xlauko/lart) framework—LLVM Abstraction and Refinement
+Tool. This framework leverages program instrumentation and compiler tools to
+simplify the design of effective input data representations.
 
 Feel free to delve deeper into my research and projects on this page, and don't
 hesitate to reach out for collaboration or further discussion.
