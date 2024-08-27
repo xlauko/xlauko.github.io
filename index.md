@@ -31,12 +31,21 @@ hesitate to reach out for collaboration or further discussion.
 
 I serve on several committees for conferences focused on C/C++, LLVM, and MLIR analysis and compilation:
 
-- [ISO WG21 The C++ Standrads Committee](https://isocpp.org/std/the-committee) | Standards committee member
-- [LLVM Developers' Meeting 2024](https://llvm.swoogo.com/2023devmtg) | Program committee
-- [Euro LLVM Developers' Meeting 2024](https://llvm.swoogo.com/2024eurollvm) | Program committee
-- [ATVA 2024](https://atva-conference.org/2024/) | Artifact Evaluation committee
-- [LLVM Developers' Meeting 2023](https://llvm.swoogo.com/2023devmtg) | Program committee
-- [SV-COMP](https://sv-comp.sosy-lab.org/) 2019 -- 2021 | Jury member of software verification competition
+- [ISO WG21 The C++ Standrads Committee](https://isocpp.org/std/the-committee) &#124; Standards committee member
+- [LLVM Developers' Meeting 2024](https://llvm.swoogo.com/2023devmtg) &#124; Program committee
+- [](https://llvm.swoogo.com/2024eurollvm) &#124; Program committee
+- [ATVA 2024](https://atva-conference.org/2024/) &#124; Artifact Evaluation committee
+- [LLVM Developers' Meeting 2023](https://llvm.swoogo.com/2023devmtg) &#124; Program committee
+- [SV-COMP](https://sv-comp.sosy-lab.org/) 2019 -- 2021 &#124; Jury member of software verification competition
+
+### Talks &amp; Presentations
+
+---
+
+I have presented my work at various venues:
+
+- [C/C++ MLIR Frontends Round table orginzer &#124; Euro LLVM Developers' Meeting 2024](https://llvm.swoogo.com/2024eurollvm/session/1917542/round-tables)
+- [Repurposing LLVM analyses in MLIR: Also there and back again across the tower of IRs &#124; Euro LLVM Developers' Meeting 2024](https://youtu.be/pfViYCignjY?si=UcxED5Id3S0WC8tR)
 
 ### Teaching
 
@@ -60,11 +69,11 @@ I am a co-author of exercise books for courses on algorithms and data structures
 I actively engage in volunteering activities for high school students and puzzlehunt competitions.
 As a member of the [Nordic Animals Association](https://zverinec.fi.muni.cz/) (IT student association that organizes events for high school students), I participate in the organization of:
 
-- [KSI](https://ksi.fi.muni.cz/), a yearlong online seminar on computer science for high school students,
-- [K-SCUK](https://kscuk.fi.muni.cz/), a weeklong camp for students interested in computer science and/or biology,
-- [InterLos](https://interlos.fi.muni.cz/), [InterSob](https://intersob.math.muni.cz/) -- puzzlehunt-like competitions.
+- [KSI](https://ksi.fi.muni.cz/) &#124; a yearlong online seminar on computer science for high school students,
+- [K-SCUK](https://kscuk.fi.muni.cz/) &#124;a weeklong camp for students interested in computer science and/or biology,
+- [InterLos](https://interlos.fi.muni.cz/), [InterSob](https://intersob.math.muni.cz/) &#124; puzzlehunt-like competitions.
 
 I am also active member of [Instruktori Brno](https://www.instruktori.cz/), where I participate in organization of:
 
-- [TMOU](https://www.tmou.cz/) -- the largest puzzlehund in Czech republic.
-- [Civilizace](https://civilizace.instruktori.cz/) -- weekend camp with spirit of Sid Meyers' Civilazation but live.
+- [TMOU](https://www.tmou.cz/) &#124; the largest puzzlehund in Czech republic.
+- [Civilizace](https://civilizace.instruktori.cz/) &#124; weekend camp with spirit of Sid Meyers' Civilazation but live.
